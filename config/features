@@ -1,0 +1,26 @@
+// A listing of the features and their possible values. All features are binary.
+age_lte_30 t f
+age_betw_31_50 t f
+age_gt_50 t f
+sex m f
+steroid y n
+antivirals y n
+fatigue y n
+malaise y n
+anorexia y n
+liver_big y n
+liver_firm y n
+spleen_palpable y n
+spiders y n
+ascites y n
+varices y n
+bilirubin_lte_2.9 t f
+alk_phosphate_lte_127 t f
+sgot_lte_59 t f
+sgot_betw_60_156 t f
+sgot_gt_156 t f
+albumin_lte_3.85 t f
+histology y n
+
+// space separated output labels
+output_labels=survived died
